@@ -81,7 +81,7 @@ cp -r $CACHE_DIR/dart-sdk $BUILD_DIR
 cp -r $CACHE_DIR/dart-sdk /app
 
 # log out contents of app directory
-ls -l /app/dart-sdk
+ls -l /app/dart-sdk/bin
 
 DART_BIN=`ls -l /app/dart-sdk/bin/dart`
 message "-----> Dart cmd found at $DART_BIN"
